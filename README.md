@@ -34,7 +34,7 @@ Comes from [tonymacx86](https://www.tonymacx86.com/threads/success-jbarnettes-bu
     - Extreme Memory Profile (X.M.P.) → **Profile 1**
 - BIOS
     - Windows 8/10 Features → **Other OS**
-    - CSM Support → **Enabled**
+    - CSM Support → **Disable**
         - Secure Boot will be disabled by default, but good to check
 - Peripherals
     - Initial Display Output → PCIe Slot 1. If your discrete graphics card is in Slot 2, change this appropriately.
