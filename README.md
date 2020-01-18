@@ -19,7 +19,7 @@ Monitor | AOC U2790VQ 27” 4K
 Keyboard & Mouse | Magic Keyboard 2 & Mouse 2
 
 ## What's working?
-- Both iGPU and eGPU are working fine!
+- Both iGPU and eGPU are working fine, WITHOUT whatevergreen.kext, thanks to [cattyhouse](https://github.com/cattyhouse/oc-guide), now iGPU can work in best performance.
 - NVRAM is working fine! I can change my Startup Disk in System Preference.
 - BlueTooth and Wi-Fi are working fine, because of I brought it on purpose.
 - USBs are working fine, thanks to hackintool.
