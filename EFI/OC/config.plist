@@ -776,7 +776,7 @@
 			<string>MemoryAllocation.efi</string>
 			<string>FwRuntimeServices.efi</string>
 			<string>VirtualSmc.efi</string>
-			<string>VBoxHfs.efi</string>
+			<string>HFSPlus.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
