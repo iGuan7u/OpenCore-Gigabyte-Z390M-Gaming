@@ -24,11 +24,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>plugin-type=1</string>
+				<string>NVRAM</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
-				<string>SSDT-PLUG.aml</string>
+				<string>SSDT-PMC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -225,7 +225,7 @@
 			<key>DisableSingleUser</key>
 			<false/>
 			<key>DisableVariableWrite</key>
-			<true/>
+			<false/>
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
@@ -719,7 +719,7 @@
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
-		<true/>
+		<false/>
 		<key>LegacyOverwrite</key>
 		<false/>
 		<key>LegacySchema</key>
