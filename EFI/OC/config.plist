@@ -593,9 +593,9 @@
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleBehaviourOs</key>
-			<string>ForceGraphics</string>
+			<string></string>
 			<key>ConsoleBehaviourUi</key>
-			<string>ForceText</string>
+			<string></string>
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>HibernateMode</key>
