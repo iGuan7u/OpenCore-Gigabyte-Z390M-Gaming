@@ -605,7 +605,7 @@
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>Resolution</key>
-			<string>3840×2160</string>
+			<string>3840x2160</string>
 			<key>ShowPicker</key>
 			<true/>
 			<key>Timeout</key>
