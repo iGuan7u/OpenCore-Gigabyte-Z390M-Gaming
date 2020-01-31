@@ -32,11 +32,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>USB Controller</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
+				<string>SSDT-EC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -761,7 +761,7 @@
 			<key>MLB</key>
 			<string>CHANGEYOUROWNONE</string>
 			<key>ROM</key>
-			<data>qqqqqqqq</data>
+			<data>CHANGEYOUROWNONE</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SupportsCsm</key>
