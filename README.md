@@ -22,7 +22,7 @@ Keyboard & Mouse | Magic Keyboard 2 & Mouse 2
 - Both iGPU and eGPU are working fine, WITHOUT whatevergreen.kext, thanks to [cattyhouse](https://github.com/cattyhouse/oc-guide), now iGPU can work in best performance.
 - **NATIVE NVRAM** is working! I can change my Startup Disk in System Preference. thanks to [acidanthera SSDT-PMC](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/SSDT-PMC.dsl), now `LogoutHook.command` is unnecessary.
 - BlueTooth and Wi-Fi are working fine, because of I brought it on purpose.
-- USBs are working fine, I patch it with `USBPorts.kext`, thanks to hackintool, you can see [my configuration](./doc/USB)
+- USBs are working fine, I patch it with `USBPorts.kext`, thanks to hackintool, you can see [my configuration](./doc/USB.md)
 - Sleep is fine, thanks to Gigabyte Z390M Gaming, it really saved my time.
 
 ## BIOS Changes
