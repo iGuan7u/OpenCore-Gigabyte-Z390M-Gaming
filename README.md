@@ -23,6 +23,7 @@ Keyboard & Mouse | Magic Keyboard 2 & Mouse 2
 - **NATIVE NVRAM** is working! I can change my Startup Disk in System Preference. thanks to [acidanthera SSDT-PMC](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/SSDT-PMC.dsl), now `LogoutHook.command` is unnecessary.
 - BlueTooth and Wi-Fi are working fine, because of I brought it on purpose.
 - USBs are working fine, I patch it with `USBPorts.kext`, thanks to hackintool, you can see [my configuration](./doc/USB.md)
+- High Speed USB Charge also working, enable by `USBPower.kext`.
 - Sleep is fine, thanks to Gigabyte Z390M Gaming, it really saved my time.
 
 ## BIOS Changes
