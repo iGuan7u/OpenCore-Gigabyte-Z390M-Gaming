@@ -134,7 +134,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>R0ZYMA==</data>
 				<key>Limit</key>
@@ -160,7 +160,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>UEVHUA==</data>
 				<key>Limit</key>
@@ -277,7 +277,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Patch engine</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -293,7 +293,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>SMC emulator</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -309,9 +309,9 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>Video card</string>
+				<string>Video patches</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/WhateverGreen</string>
 				<key>MaxKernel</key>
@@ -325,7 +325,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>Sound</string>
+				<string>Audio patches</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -341,7 +341,7 @@
 				<key>BundlePath</key>
 				<string>IntelMausi.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Intel Ethernet LAN</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -450,7 +450,7 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>Ym9hcmQtaWQ=</data>
 				<key>Identifier</key>
@@ -569,6 +569,8 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<false/>
+			<key>DummyPowerManagement</key>
+			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -582,7 +584,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -592,6 +594,8 @@
 		</array>
 		<key>Boot</key>
 		<dict>
+			<key>BuiltinTextRenderer</key>
+			<false/>
 			<key>ConsoleBehaviourOs</key>
 			<string></string>
 			<key>ConsoleBehaviourUi</key>
@@ -607,7 +611,9 @@
 			<key>Resolution</key>
 			<string>3840x2160</string>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
+			<key>TakeoffDelay</key>
+			<integer>0</integer>
 			<key>Timeout</key>
 			<integer>5</integer>
 			<key>UsePicker</key>
@@ -644,7 +650,7 @@
 			<key>AllowNvramReset</key>
 			<true/>
 			<key>AllowSetDefault</key>
-			<false/>
+			<true/>
 			<key>AuthRestart</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
@@ -666,7 +672,7 @@
 				<key>Comment</key>
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Path</key>
@@ -676,13 +682,13 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string>Memory testing utility</string>
+				<string>Verify CFG Lock</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Name</key>
-				<string>memcheck</string>
+				<string>VerifyMsrE2</string>
 				<key>Path</key>
-				<string>memcheck/memcheck.efi</string>
+				<string>VerifyMsrE2.efi</string>
 			</dict>
 		</array>
 	</dict>
@@ -758,13 +764,13 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
+			<key>AdviseWindows</key>
+			<true/>
 			<key>MLB</key>
 			<string>CHANGEYOUROWNONE</string>
 			<key>ROM</key>
 			<data>CHANGEYOUROWNONE</data>
 			<key>SpoofVendor</key>
-			<true/>
-			<key>SupportsCsm</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
@@ -788,10 +794,10 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>ApfsDriverLoader.efi</string>
+			<string>HFSPlus.efi</string>
 			<string>MemoryAllocation.efi</string>
 			<string>FwRuntimeServices.efi</string>
-			<string>HFSPlus.efi</string>
+			<string>ApfsDriverLoader.efi</string>
 			<string>AppleUsbKbDxe.efi</string>
 		</array>
 		<key>Input</key>
