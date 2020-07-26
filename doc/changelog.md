@@ -1,5 +1,20 @@
 # Change Log
 
+## 2020-07-26
+
+1. Update OpenCore to v0.5.9
+2. Update Lilu.kext to v1.4.5
+3. Update SMCProcessor.kext to v1.1.4
+4. Update SMCSuperIO.kext to v1.1.4
+5. Update VirtualSMC.kext to v1.1.4
+6. Update WhateverGreen.kext to v1.4.0
+7. Update IntelMausi.kext to v1.0.3
+8. Update AppleALC.kext to v1.5.0
+9. Add NVMeFix.kext
+10. Disable OpenCore detect Windows EFI boot Option
+
+Nothing seems is different, suit yourself.
+
 ## 2020-03-27
 
 1. Update OpenCore to v0.5.6
