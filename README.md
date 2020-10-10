@@ -31,7 +31,7 @@ Keyboard & Mouse | Magic Keyboard 2 & Mouse 2
 
 ## Pre-Work (VERY IMPORTANT!)
 - Make sure you have [**disabled CFG Lock**](https://blog.xjn819.com/?p=317).
-- Make sure **GENERATE NEW Serial Number & SmUUID** by yourself.
+- Make sure **GENERATE NEW MLB, ROM, SystemSerialNumber, SystemUUID** and **REPLACE THEM IN config.plist** by yourself.
 
 ## BIOS Changes
 Comes from [tonymacx86](https://www.tonymacx86.com/threads/success-jbarnettes-build-gigabyte-z390-m-gaming-i9-9900k-sapphire-rx-vega-64-8gb-32gb-ram-macos-10-14-3-w-usb3-working.273381/).
@@ -67,5 +67,5 @@ Comes from [tonymacx86](https://www.tonymacx86.com/threads/success-jbarnettes-bu
     - ErP → Disabled
     - RC6 (Render Standby) → Enabled
 
-## Special Config
+## Tips
 - USB3.0 is active by kexts/Other/USBPorts.kext. USBInjectALL.kext is unnecessary.

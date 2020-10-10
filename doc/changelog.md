@@ -1,5 +1,21 @@
 # Change Log
 
+## 2020-10-10
+
+1. Update OpenCore to v0.6.2
+2. Update Lilu.kext to v1.4.8
+3. Update SMCProcessor.kext to v1.1.7
+4. Update SMCSuperIO.kext to v1.1.7
+5. Update VirtualSMC.kext to v1.1.7
+6. Update WhateverGreen.kext to v1.4.3
+7. Update IntelMausi.kext to v1.0.4
+8. Update AppleALC.kext to v1.5.3
+9. Delete ApfsDriverLoader.efi, now OpenCore will try to load APFS drivers in APFS container
+10. Delete MemoryAllocation.efi, combine with `DevirtualiseMmio` and `ProtectUefiServices` properties, enable KASLR memory injection
+11. Delete FwRuntimeSerices.efi, now it is rename as `OpenCoreRuntime.efi`
+
+Nothing seems is different, suit yourself.
+
 ## 2020-07-26
 
 1. Update OpenCore to v0.5.9
