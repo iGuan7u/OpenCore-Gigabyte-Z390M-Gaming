@@ -29,43 +29,43 @@ Keyboard & Mouse | Magic Keyboard 2 & Mouse 2
 - High Speed USB Charge also working, enable by `USBPower.kext`.
 - Sleep is fine, thanks to Gigabyte Z390M Gaming, it really saved my time.
 
-## Pre-Work (VERY IMPORTANT!)
-- Make sure you have [**disabled CFG Lock**](https://blog.xjn819.com/?p=317).
-- Make sure **GENERATE NEW MLB, ROM, SystemSerialNumber, SystemUUID** and **REPLACE THEM IN config.plist** by yourself.
-
 ## BIOS Changes
-Comes from [tonymacx86](https://www.tonymacx86.com/threads/success-jbarnettes-build-gigabyte-z390-m-gaming-i9-9900k-sapphire-rx-vega-64-8gb-32gb-ram-macos-10-14-3-w-usb3-working.273381/).
+MAKE SURE YOU HAVE UPDATED TO VERSION F9M! NOW CFG-LOCK CAN BE DISABLE MANUALLY!
 
-- Save & Exit
+1. Save & Exit
     - Load Optimized Defaults then make (or confirm) the following settings -- important settings in **bold**:
-- M.I.T.
-    - Extreme Memory Profile (X.M.P.) → **Profile 1**
-- BIOS
-    - Windows 8/10 Features → **Other OS**
+2. Setting modify
+- Tweaker
+    - Advanced CPU Settings
+      - VT-d → **Disabled**
+    - Extreme Memory Profile(X.M.P.) → Profile 1
+- Settings
+    - Platform Power
+        - Platform Power Management → **Disabled**
+        - ErP → **Disabled**
     - CSM Support → **Disable**
         - Secure Boot will be disabled by default, but good to check
-- Peripherals
-    - Initial Display Output → PCIe Slot 1. If your discrete graphics card is in Slot 2, change this appropriately.
-    - Intel Platform Trust Technology (PTT) → Disabled
-    - Thunderbolt(TM) Configuration
-        - TBT Vt-d Base Security → **Disabled**
-        - Thunderbolt Boot Support → **Disabled**
-        - Security Level → **No Security**
-    - USB Configuration
-        - Legacy USB Support → Enabled
-        - XHCI Hand-off → **Enabled**
-    - Network Stack Configuration
-        - Network Stack → **Disabled**
-- Chipset
-    - Vt-d → **Disabled**
-    - Internal Graphics → **Enabled**
-    - DVMT Pre-Alloc → 64M
-    - DVMT Total Gfx Mem → 256M
-    - Audio Controller → **Enabled**
-    - Above 4G Decoding → **Enabled**
-- Power
-    - ErP → Disabled
-    - RC6 (Render Standby) → Enabled
-
+    - IO Ports
+        - Initial Display Output → PCIe Slot 1. (If your discrete graphics card is in Slot 2, change this appropriately.)
+        - Internal Graphics → **Enabled**
+        - Above 4G Decoding → Enabled
+        - Resize BAR Support → Disabled
+        - Super IO Configuration
+            - Serial Port → Disabled
+        - USB Configuration
+            - XHCI Hand-off → **Enabled**
+            - Legacy USB Support → Enabled
+            - USB Mass Storage Driver Support → Enabled
+            - Port 60/64 Emulation → Disabled
+        - Network Stack Configuration
+            - Network Stack → Disabled
+     - Miscellaneous
+        - Intel Platform Trust Technology(PTT) → **Disabled**
+        - Software Guard Extensions(SGX) → **Disabled**
+- Boot
+    - CFG Lock → Disabled (This is VERY VERY IMPORTANT)
+    - Windows 8/10 Features → **Other OS**
+    - CSM Support → Disable
+    - Secure Boot → Disable
 ## Tips
 - USB3.0 is active by kexts/Other/USBPorts.kext. USBInjectALL.kext is unnecessary.
