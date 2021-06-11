@@ -30,7 +30,8 @@ Keyboard & Mouse | Magic Keyboard 2 & Mouse 2
 - Sleep is fine, thanks to Gigabyte Z390M Gaming, it really saved my time.
 
 ## BIOS Changes
-MAKE SURE YOU HAVE UPDATED TO VERSION F9M! NOW CFG-LOCK CAN BE DISABLE MANUALLY!
+
+MAKE SURE YOUR BIOS VERSION HAVE UPDATED TO VERSION F9m! NOW CFG-LOCK CAN BE DISABLE MANUALLY!
 
 1. Save & Exit
     - Load Optimized Defaults then make (or confirm) the following settings -- important settings in **bold**:
