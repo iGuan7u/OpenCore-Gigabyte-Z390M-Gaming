@@ -1,5 +1,18 @@
 # Change Log
 
+## 2021-06-18
+
+1. Update OpenCore to v0.7.0
+2. Update Lilu.kext to v1.5.3
+3. Update SMCProcessor.kext to v1.2.4
+4. Update SMCSuperIO.kext to v1.2.4
+5. Update VirtualSMC.kext to v1.2.4
+6. Update WhateverGreen.kext to v1.5.0
+7. Update IntelMausi.kext to v1.0.6
+8. Update AppleALC.kext to v1.6.1
+
+macOS sleep become more reliable, and support macOS 11. Have fun.
+
 ## 2020-10-10
 
 1. Update OpenCore to v0.6.2
