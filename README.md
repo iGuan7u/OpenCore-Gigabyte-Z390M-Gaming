@@ -1,6 +1,10 @@
 # OpenCore-Gigabyte-Z390M-Gaming
-An OpenCore config of hackintosh, about Gigabyte Z390M Gaming.
 
+## Please move on to [BenjaminX's project](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING)
+
+## This project is no longer maintain. Thank you for your stars.
+
+An OpenCore config of hackintosh, about Gigabyte Z390M Gaming.
 
 ![info](./screenshot/info.png)
 
